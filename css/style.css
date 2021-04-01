@@ -1,0 +1,163 @@
+/* common start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*common end */
+/* header start*/
+header{
+	
+	padding: 10px 0;
+
+}
+.container {
+	width:80%;
+	/*border: 1px solid black;*/
+	margin:0 auto;
+	overflow: hidden;
+
+}
+
+.logo {
+	width: 17%;
+	/*border: 1px solid;*/
+	float: left;
+
+}
+.logo a{
+	display: block;
+
+}
+.logo a img{
+	width: 100%;
+
+}
+.menu {
+    padding-top: 8px;
+    width: 75%;
+	/*border: 1px solid;*/
+	float: right;
+	
+}
+.menu ul{
+	float: right;
+	
+
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+	
+    
+
+}
+.menu ul li a{
+	font-family:sans-serif;
+	font-size: 16px;
+	font-weight: 400;  
+	text-decoration: none;
+	padding: 0 15px;
+	display: block;
+	color: black;
+
+}
+.menu ul li a:hover{
+	color: #BB2842;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+
+
+/*header end */
+/*banner start*/
+.banner{
+	background-image:url(../img/business.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 550px;
+
+}
+.content{
+	width: 50%;
+
+
+}
+.content h1{
+	margin-top: 90px;
+	margin-bottom:  30px;
+	font-family: sans-serif;
+    font-size: 57px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+.content p{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: white;
+	margin-bottom: 15px;
+
+
+
+}
+.p1{
+	margin-top: 30px;
+	text-transform: capitalize;
+
+}
+.content button{
+	margin-top: 20px;
+	text-transform: uppercase;
+	width:250px;
+	height: 40px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	background-color: #BC223E;
+	word-spacing: 1px;
+	transition: .3s;
+
+
+}
+.content button:hover{
+  background-color: white;
+	color: #BC223E;
+
+}
+/*Banner start*/
+.works{
+	padding-top: 50px;
+
+}
+.top{
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	
+}
+.w_front{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: capitalize;
+
+}
+.w_p{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #9C9C9C;
+	line-height: 25px;
+
+
+}
+
